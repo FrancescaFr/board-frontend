@@ -8,6 +8,7 @@ import NewBoardForm from "./components/NewBoardForm";
 import NewCardForm from "./components/NewCardForm";
 
 const kBaseUrl = "https://oyster-inspiration-board.herokuapp.com/";
+// const kBaseUrl = "http://127.0.0.1:5000/"; // local testing database
 
 const getAllBoardsApi = () => {
   return axios
@@ -183,7 +184,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="app-header">The World is your Oyster</header>
+      <header className="app-header">The World is your Oyster V2</header>
       <div className="App-container">
         <section className="boards-container">
           <h1>Boards</h1>
