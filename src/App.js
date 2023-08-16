@@ -7,7 +7,8 @@ import CardList from "./components/CardList";
 import NewBoardForm from "./components/NewBoardForm";
 import NewCardForm from "./components/NewCardForm";
 
-const kBaseUrl = "https://oyster-inspiration-board.herokuapp.com/";
+// const kBaseUrl = "https://oyster-inspiration-board.herokuapp.com/"; //heroku backend API ($5/mo)
+const kBaseUrl = "https://francescafr.pythonanywhere.com/" // pythonanywhere backend API ($5/mo)
 // const kBaseUrl = "http://127.0.0.1:5000/"; // local testing database
 
 const getAllBoardsApi = () => {
